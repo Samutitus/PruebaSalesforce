@@ -5,5 +5,5 @@
     },
     handleButton1Click : function(component, event, helper) {
         helper.toggleDiv(component);
-    }
+    },
 })
