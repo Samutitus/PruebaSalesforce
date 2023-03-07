@@ -1,12 +1,9 @@
 ({
-    doInit : function(component, event, helper) {
-        component.set('v.helper', helper);
+    myAction : function(component, event, helper) {
+
     },
-    init: function(component, event, helper) {
-        component.set('v.isClicked1', false);
-        component.set('v.isClicked2', false);
-    },
-    handleButton1Click : function(component, event, helper) {
-        component.get('v.helper').toggleDiv(component);
-    },
+    handleButtonClick:(function(component, event, helper) {
+    }),
+    handleButtonClick2:(function(component, event, helper) {
+    })
 })
