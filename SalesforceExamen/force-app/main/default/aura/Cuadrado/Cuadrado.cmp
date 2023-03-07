@@ -1,5 +1,5 @@
 <aura:component>
-    <ltng:require styles="{!$Resource.Cuadrado + '/Cuadrado.css'}" />
+    
     <aura:attribute name="isClicked1" type="Boolean" default="false" />
     <aura:attribute name="isClicked2" type="Boolean" default="false" />
 

@@ -1,6 +1,7 @@
 <aura:component>
+    <aura:attribute name="isClicked1" type="Boolean" default="false"/>
+    <aura:attribute name="isClicked2" type="Boolean" default="false"/>
     <lightning:button label="Button 1" onclick="{!c.handleButton1Click}" />
     <lightning:button label="Button 2" onclick="{!c.handleButton2Click}" />
-    <c:Cuadrado/>
-
+    <c:Cuadrado aura:id="cuadrado" />
 </aura:component>
