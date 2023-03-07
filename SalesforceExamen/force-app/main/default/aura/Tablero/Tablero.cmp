@@ -1,4 +1,5 @@
 <aura:component>
+    <aura:attribute name="helper" type="Object" />
     <aura:attribute name="isClicked1" type="Boolean" default="false"/>
     <aura:attribute name="isClicked2" type="Boolean" default="false"/>
     <lightning:button label="Button 1" onclick="{!c.handleButton1Click}" />
