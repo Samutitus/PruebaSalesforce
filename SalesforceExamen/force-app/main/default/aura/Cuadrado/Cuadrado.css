@@ -1,3 +1,18 @@
-.THIS .clicked {
+.THIS .box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.THIS .box-inactive {
+    background-color: white;
+}
+
+.THIS .box-active {
+    background-color: green;
+}
+.THIS .green-bg {
     background-color: green;
 }
