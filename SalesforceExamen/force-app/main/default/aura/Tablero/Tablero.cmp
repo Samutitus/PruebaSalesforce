@@ -1,0 +1,6 @@
+<aura:component>
+    <lightning:button label="Button 1" onclick="{!c.handleButton1Click}" />
+    <lightning:button label="Button 2" onclick="{!c.handleButton2Click}" />
+    <c:Cuadrado/>
+
+</aura:component>

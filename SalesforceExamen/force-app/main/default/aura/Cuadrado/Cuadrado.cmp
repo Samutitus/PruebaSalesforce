@@ -1,0 +1,13 @@
+<aura:component>
+    <ltng:require styles="{!$Resource.Cuadrado + '/Cuadrado.css'}" />
+    <aura:attribute name="isClicked1" type="Boolean" default="false" />
+    <aura:attribute name="isClicked2" type="Boolean" default="false" />
+
+    <div style="border: 1px solid black; padding: 10px; margin-top: 20px; width: 50px; height: 50px;" onclick="{!c.handleDiv1Click}" class="{!if(v.isClicked1, 'clicked', '')}">
+        
+    </div>
+
+    <div style="border: 1px solid black; padding: 10px; margin-top: 20px; width: 50px; height: 50px;" onclick="{!c.handleDiv2Click}" class="{!if(v.isClicked2, 'clicked', '')}">
+        
+    </div>
+</aura:component>
